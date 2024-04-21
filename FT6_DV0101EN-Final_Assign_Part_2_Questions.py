@@ -47,6 +47,7 @@ app.layout = html.Div([
             id='select-year',
             options=[{'label': i, 'value': i} for i in year_list],
             value='Select Year',
+            placeholder='Select Year',
             style={'textAlign': 'center', 'font-size': 20, 'width':'80%', 'padding':'3px'}
         )),
     html.Div([#TASK 2.3: Add a division for output display
